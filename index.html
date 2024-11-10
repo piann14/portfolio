@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Favian Rafif</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact" id="contact-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content">
+      <img src="assets/images/amba.jpg" alt="Foto Profil" class="profile-photo">
+      <h1 class="animate-item">
+        <span class="typing">Hello, I'm Favian Rafif</span>
+      </h1>
+      <p id="role" class="animate-item">Aspiring Developer</p> <!-- Teks ini akan dianimasikan -->
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <h2 class="animate-item">About Me</h2>
+    <div class="about-content">
+      <img src="assets/images/apalah.jpg" alt="Foto Profil" class="about-photo"> <!-- Gambar ditambahkan di sini -->
+      <p class="animate-item">
+        Haii perkenalkan nama saya Favian Rafif dan saya siswa kelas 11 di SMK MUHAMMADIYAH 1 Bantul jurusan RPL.Dan saya adalah ultramen kadang bisa juga menjadi power rangers warna merah.Hobi saya adalah tidur tiduran ga jelas kadang juga ngoding kalau lagi mood.Sekian TERIMA GAJI.
+      </p>
+    </div>
+  </section>
+  
+  <section id="projects" class="projects">
+    <h2 class="animate-item">My Projects</h2>
+    <div class="project-gallery">
+      <div class="project-item">
+        <img src="assets/images/1.png" alt="Project 1" class="project-photo">
+        <div class="overlay">
+          <p>Project Laravel</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img src="assets/images/2.jpg" alt="Project 2" class="project-photo">
+        <div class="overlay">
+          <p>Project Tailwind css</p>
+        </div>
+      </div>
+      <div class="project-item">
+        <img src="assets/images/3.png" alt="Project 3" class="project-photo">
+        <div class="overlay">
+          <p>Project HTML</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact" class="contact">
+    <div class="contact-content">
+      <h2 class="contact-heading">Contact Me</h2>
+      <p class="contact-description">Mau kirim apa?</p>
+  
+      <form id="contactForm" class="contact-form">
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="contact-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+  
+  
+
+  <footer>
+    <div class="footer-content">
+      <div class="contact-info">
+        <p>Email: <a href="mailto:email@domain.com">favianrafifnashih@gmail.com</a></p>
+        <p>Phone: <a href="tel:+621234567890">+62 815 7560 0534</a></p>
+        <p>Address: Jl. Sultan Agung, Bantul, Yogyakarta</p>
+      </div>
+      <p>&copy; 2024 Favian Rafif. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
